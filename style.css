@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    transition: background-color 0.5s ease;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, sans-serif;
+  }
+
+  button, input[type="color"] {
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+ 
